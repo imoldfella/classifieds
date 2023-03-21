@@ -12,42 +12,36 @@ export const initApp = () => {
   hamburgerBtn?.addEventListener("click", toggleMenu);
   mobileMenu?.addEventListener("click", toggleMenu);
 
-  let defaultTheme = true;
-  const theme = document.getElementById("theme");
-  const body = document.querySelector("body");
-  const header = document.querySelector("header");
+  const btnTheme = document.getElementById("theme");
 
-  theme?.addEventListener("click", () => {
-    if (defaultTheme) {
-      // Remove classes
-      mobileMenu?.classList.remove("bg-black", "text-white");
-      body?.classList.remove("bg-black", "text-white");
-      header?.classList.remove("bg-black", "text-white");
+  // Theme Change
 
-      // Add classes
+  let userTheme = localStorage.getItem("theme");
+  let systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-      body?.classList.add("bg-white", "text-black");
-      header?.classList.add("bg-white", "text-black");
-      mobileMenu?.classList.add("bg-white", "text-black");
-
-      defaultTheme = false;
-    } else {
-      // Remove classes
-
-      mobileMenu?.classList.remove("bg-white", "text-black");
-      body?.classList.remove("bg-white");
-      header?.classList.remove("bg-white");
-
-      // Add classes
-
-      mobileMenu?.classList.add("bg-black", "text-white");
-      body?.classList.add("bg-black", "text-white");
-      header?.classList.add("bg-black", "text-white");
-
-      defaultTheme = true;
+  const ThemeCheck = () => {
+    if (userTheme === "dark" || (!userTheme && systemTheme)) {
+      document.documentElement.classList.add("dark");
+      return;
     }
+  };
 
-    console.log(defaultTheme);
+  const themeSwitch = () => {
+    if (document.documentElement.classList.contains("dark")) {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      return;
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    }
+  };
+
+  btnTheme?.addEventListener("click", () => {
+    themeSwitch();
+    console.log("hola");
   });
+
+  ThemeCheck();
 };
 ---
