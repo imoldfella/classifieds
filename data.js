@@ -15,8 +15,8 @@ export const headerData = {
       link: "/login",
     },
     {
-      text: "Contact Us",
-      link: "/contact-us",
+      text: "FAQS",
+      link: "/faqs",
     },
     {
       text: "Donate",

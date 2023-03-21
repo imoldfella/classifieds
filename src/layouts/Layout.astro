@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 
+const posts = await Astro.glob("../pages/md/*.md");
 export interface Props {
   title: string;
 }
