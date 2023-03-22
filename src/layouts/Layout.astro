@@ -1,7 +1,7 @@
 ---
+import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 
-const posts = await Astro.glob("../pages/md/*.md");
 export interface Props {
   title: string;
 }
@@ -22,8 +22,13 @@ const { title } = Astro.props;
   <body class="m-0">
     <main class="flex flex-col min-h-screen dark:bg-black dark:text-white">
       <Header />
-      <slot />
+      <div class="min-h-screen">
+        <slot>default text</slot>
+
+      </div>
+      <Footer/>
     </main>
+
   </body>
 </html>
 <style is:global></style>

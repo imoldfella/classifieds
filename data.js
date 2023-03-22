@@ -16,7 +16,7 @@ export const headerData = {
     },
     {
       text: "FAQS",
-      link: "/faqs",
+      link: "/posts/faqs/",
     },
     {
       text: "Donate",
