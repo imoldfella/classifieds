@@ -12,7 +12,7 @@ Image: qsy
 
 <div>
 
-![imageDescription](../../../public/Image3Classiefieds.png)
+[![imageDescription](../../../public/Image3Classiefieds.png)](https://cmoo.org/uncategorized/oha-at-cmoo/)
 
 </div>
 <div>

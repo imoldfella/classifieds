@@ -7,8 +7,8 @@ export const headerData = {
       link: "/",
     },
     {
-      text: "Join",
-      link: "/join",
+      text: "About Us",
+      link: "/posts/about/",
     },
     {
       text: "Login",
