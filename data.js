@@ -19,8 +19,8 @@ export const headerData = {
       link: "/posts/faqs/",
     },
     {
-      text: "Donate",
-      link: "/donate",
+      text: "Classifieds",
+      link: "/posts/classifieds/",
     },
   ],
 };
