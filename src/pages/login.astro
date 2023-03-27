@@ -3,28 +3,29 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="login">
-  <div class="lg:max-w-3xl max-w-xl mb-10  md:mb-12 md:mx-auto ">
+  <div class="lg:max-w-3xl max-w-2xl  md:mx-auto flex items-center justify-center min-h-screen ">
 
-    <div class="w-10/12 h-56 text-center mt-32 py-32 ">
-      <h1>Login</h1>
-      <form class="w-full flex flex-col" >
+    <div class="lg:w-1/2 md:w-2/3   md:shadow-lg rounded-sm  shadow-black  dark:shadow-white mx-auto px-12    ">
+      <h1 class=" text-2xl lg:text-3xl pt-10 pb-12 mx-auto text-center">Sign Up</h1>
+      <form class="w-full flex flex-col pt-" >
 
-        <div class="w-full  relative mb-6">
+        <div class="w-full   relative my-6">
 
           <label>
-            Username:
-            <input class="" " type="text" name="username" required />
+
+            <input class="text-xl w-full md:px-12 md:py-3 px-8 py-2  rounded-md border-2 text-left dark:text-black"  type="text" name="username" placeholder="Username" required />
           </label>
         </div>
-        <label>
-          Email:
-          <input type="email" name="email" required />
-        </label>
-        <label>
-          Password:
-          <input class="border border-black rounded-md" type="password" name="password" required minlength="6" />
-        </label>
-        <button class="w-1/2">Submit</button>
+        <div class="w-full   relative my-6">
+
+          <label>
+
+            <input class="text-xl w-full md:px-12 md:py-3 px-8 py-2  rounded-md border-2 text-left dark:text-black "  type="text" name="username" placeholder="Password" required />
+          </label>
+        </div>
+
+        <button class="w-2/3  mx-auto border-2 mt-4 mb-4 py-1 rounded-xl hover:shadow-lg">Submit</button>
+        <a class="w-2/3 mx-auto text-center mb-6 border-2 py-1 rounded-xl hover:shadow-lg" href="">Register</a>
       </form>
 
     </div>
