@@ -7,12 +7,12 @@ export const headerData = {
       link: "/",
     },
     {
-      text: "About Us",
-      link: "/posts/about/",
-    },
-    {
       text: "Login",
       link: "/login",
+    },
+    {
+      text: "About Us",
+      link: "/posts/about/",
     },
     {
       text: "FAQS",

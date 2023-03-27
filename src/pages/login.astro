@@ -3,6 +3,30 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="login">
-  <h1>login</h1>
-  <a href="./posts/post2/"> aaa </a>
+  <div class="lg:max-w-3xl max-w-xl mb-10  md:mb-12 md:mx-auto ">
+
+    <div class="w-10/12 h-56 text-center mt-32 py-32 ">
+      <h1>Login</h1>
+      <form class="w-full flex flex-col" >
+
+        <div class="w-full  relative mb-6">
+
+          <label>
+            Username:
+            <input class="" " type="text" name="username" required />
+          </label>
+        </div>
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Password:
+          <input class="border border-black rounded-md" type="password" name="password" required minlength="6" />
+        </label>
+        <button class="w-1/2">Submit</button>
+      </form>
+
+    </div>
+  </div>
 </Layout>
