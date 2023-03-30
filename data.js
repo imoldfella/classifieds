@@ -7,20 +7,20 @@ export const headerData = {
       link: "/",
     },
     {
-      text: "Join",
-      link: "/join",
-    },
-    {
       text: "Login",
       link: "/login",
     },
     {
-      text: "Contact Us",
-      link: "/contact-us",
+      text: "About Us",
+      link: "/posts/about/",
     },
     {
-      text: "Donate",
-      link: "/donate",
+      text: "FAQS",
+      link: "/posts/faqs/",
+    },
+    {
+      text: "Classifieds",
+      link: "/posts/classifieds/",
     },
   ],
 };
