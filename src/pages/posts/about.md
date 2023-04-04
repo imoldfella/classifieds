@@ -4,18 +4,30 @@ layout: "../about.astro"
 img-logo: "../../../public/logoLeah.png"
 ---
 
-### Who are we?
+# Animam aris
 
-The Oswego Homeschool Association is a non-profit group for homeschooling parents and children of all ages. We believe that parents are the primary teachers and are responsible for all lawful reporting, curricula choices, and core subject instruction. OHA aims to support the role of the parent by offering meetings, special events, field trips, and educational opportunities. We are an inclusive, eclectic, local, member-run organization that honors the diversity of homeschoolers and provides a supportive community for our members. Our reasons for homeschooling differ, as do our styles and approaches to education. What we share is a respect for all learners and a desire to support one another.
+## Mutare clipeus
 
-### What we offer?
+Lorem markdownum verborum maxima taedasque de verbis cernimus, ara esse, etiam
+tamen simulacraque mortale. Mitem nunc diu erat, ipsa isset, proceres ocior
+ossa.
 
-OHA is very happy to provide a broad range of extracurricular and supplemental activies to Oswego's homeschool community. As an OHA member, your child can participate in our Lakeside Enrichment and Academic Program (LEAP), choir, theatrical performances, ROYALS athletics, and more. Our programs are ever changing and we are always looking for ways to enrich our children's lives.
+Primis sucis reliquit inhaerebat partim mersisque contentus fulmina. _Issen in
+vobis_ Thisbes _defensamus facibus_ cogit grana de diffudit quis retices
+reddidit, insultavere.
 
-If you are interested in becoming an OHA member, feel free to email us at **(oswegohamembership@gmail.com)** for more information. When you are ready to join, simply click "Join" above to fill out an application.
+- Versa naturalique prima viros
+- Tuum Perseu deus
+- Super hominum nutricis
+- Errabat polenta cum Pleionesque vidit ferum
 
-### LEAH
+Quoque media, modo vellem digna hoc vincula inquit, visent qui numina redderet!
+Terrarum agros **consumptaque linguae illis** anima? Habebat petebatur Alcmene
+ferrum donaverit deam, dixit vasti bracchia facta firmat.
 
-OHA is a chapter of Homeschool NY/Loving Education at Home, Inc. In becoming an OHA member, you are also a member of Homeschool NY/Loving Education at Home, Inc. For more information about Homeschool NY/Loving Education at Home, Inc, please click the button below!
+## Averna Ampycides clamore florem
 
-[![image](../../../public/logoLeah.png)](https://www.leah.org/)
+Nec sparsisque biceps. **Naris Erigoneque pronus** tum soror Colchis, quamvis,
+_summo cum ima_ lapsa indulgent sagittam in. Origo ferox et natura mirabile, et,
+mihi nata **parva**. Per [operum quodque](http://agebat.com/nuncpraevertunt)
+hora?
