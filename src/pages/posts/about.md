@@ -4,7 +4,7 @@ layout: "../about.astro"
 img-logo: "../../../public/logoLeah.png"
 ---
 
-# Animam aris
+# About us
 
 ## Mutare clipeus
 
