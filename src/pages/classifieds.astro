@@ -1,0 +1,15 @@
+---
+interface Frontmatter {
+  title: string;
+  description?: string;
+}
+const posts = await Astro.glob<Frontmatter>('../classifieds/*.md');
+---
+
+<div>
+    ({posts.length})
+  {posts.map(post => <div>
+        <h1>{post.frontmatter.title}</h1>
+        <p><post.Content></post.Content></p>
+    </div>)}
+</div>

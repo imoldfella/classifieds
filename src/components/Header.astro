@@ -5,9 +5,9 @@ const links = headerData.links;
 ---
 
 <script>
-  import { BurguerMenu } from "./BurguerMenu.astro";
+  import { BurguerMenu } from "../lib/burguer";
 
-  import { Theme } from "./Theme.astro";
+  import { Theme } from "../lib/Theme";
   document.addEventListener("DOMContentLoaded", Theme);
   document.addEventListener("DOMContentLoaded", BurguerMenu);
 </script>
